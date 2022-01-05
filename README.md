@@ -1,5 +1,11 @@
 # NEXT.js Basic
 
+### stack
+
+<img src="https://img.shields.io/badge/Next-000000?style=for-the-badge&logo=Next.js&logoColor=#000000">
+<img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+---
 ### Library vs Framework
 
 - Library는 미리 작성된 코드, 변수 ,함수, 클래스등이 포함되어 개발자가 개발하는데 필요한 도구의 집합을 호출하여 사용하는 방식을 취한다.
