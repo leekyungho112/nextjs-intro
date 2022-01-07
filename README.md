@@ -46,3 +46,18 @@
 
   <a className={`${styles.link} ${router.pathname === '/about' ? styles.active : ''}`}>
 ```
+
+### custom App
+
+- index.js 파일 전에 보여주는 파일로 "\_app.js" 작성하여 global style을 지정해 줄수 있다.
+
+```js
+export default function App({ Component, pageProps }) {
+  return (
+    <>
+      <NavBar />
+      <Component {...pageProps} />
+    </>
+  );
+}
+```
