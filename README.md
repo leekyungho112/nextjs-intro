@@ -30,3 +30,19 @@
 ### routing
 
 - a 태그의 href를 이용하면 페이지 새로고침이 일어나게 된다. link를 사용하여 navigation을 구성할수 있다.
+
+### css module
+
+- css module을 통해서 다른 파일에서 중복된 클래스명을 갖는것이 가능해진다.
+
+```js
+ <a className={router.pathname === '/about' ? styles.active : ''}>
+```
+
+- 한태그안에 두개의 혹은 그 이상의 className을 가질경우
+
+```js
+ <a className={[router.pathname === '/about' ? styles.active : ''].join('')}>
+
+  <a className={`${styles.link} ${router.pathname === '/about' ? styles.active : ''}`}>
+```
