@@ -77,3 +77,8 @@ function getServerSideProps() {}
 ```
 
 - getServerSideProps 함수 안에 작성된 코드는 client가 아닌 server에서 돌아간다.
+
+### Dynamic Routes
+
+- url의 경로가 /movies/all 이라는 경로를 가진다면 pages 폴더에 movies 폴더를 만들고 all.js 파일을 생성해 준다. 이때 만약 movies에 중첩된 경로를 가지게 할려면 "ex)/movies" movies 폴더에 index.js파일을 생성해주면 맵핑이 된다.
+- url에 변수를 넣는 방법으론 "ex)/movies/121312" movies폴더안에 [id].js파일을 생성해준다.
