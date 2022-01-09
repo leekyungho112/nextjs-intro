@@ -69,3 +69,11 @@ export default function App({ Component, pageProps }) {
 ### Redirect , Rewrite
 
 - Rewrite는 Redirect시키지만 url은 변하지 않는다.
+
+### Server Side Rendering
+
+```js
+function getServerSideProps() {}
+```
+
+- getServerSideProps 함수 안에 작성된 코드는 client가 아닌 server에서 돌아간다.
