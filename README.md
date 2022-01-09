@@ -61,3 +61,7 @@ export default function App({ Component, pageProps }) {
   );
 }
 ```
+
+### patterns
+
+- custom app에서 많이 쓰는 패턴으로 layout을 구성해줄 수 있다. react에서 제공하는 children prop을 통해 하나의 component를 또 다른 component안에 넣을수 있다.
